@@ -11,7 +11,7 @@ let rule30 = function
 
 let printRow row = 
     row
-    |> Array.map (fun e -> if e = 1 then 'X' else ' ')
+    |> Array.map (fun e -> if e = 1 then '█' else ' ')
     |> System.String
 
 printRow firstRow
